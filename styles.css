@@ -1,0 +1,89 @@
+body {
+    background-color: whitesmoke;
+}
+
+.login-container {
+    display: block;
+    width: 35%;
+    margin: 15rem auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+.login-container h3 {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.login-container h4 {
+    width: auto;
+    display: block;
+    text-align: right;
+    margin-bottom: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+.login-container input {
+    display: block;
+    width: 100%;
+    height: 1.8rem;
+    margin-bottom: 0.5rem;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    border-color: transparent;
+}
+
+.signin-button {
+    display: block;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 2rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: bold;
+    color: gray;
+}
+
+.social-login-text {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.social-login {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.social-login a img {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+    margin: auto;
+    text-decoration: none;
+}
