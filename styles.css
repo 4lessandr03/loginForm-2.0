@@ -76,6 +76,9 @@ p {
 
 .social-login {
     display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    height: auto;
     gap: 10px;
     justify-content: center;
 }
@@ -83,7 +86,7 @@ p {
 .social-login a img {
     display: flex;
     justify-content: center;
-    width: 20%;
+    width: 10%;
     height: auto;
     margin: auto;
     text-decoration: none;
